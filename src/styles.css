@@ -243,12 +243,18 @@ body,
 }
 
 .chatbot-box {
-  width: 70%;
-  height: 80vh;
+  width: 90%;
+  height: 90vh;
   border-radius: 75px;
   background-color: #545dfe;
   overflow: hidden;
   display: flex;
+  align-items: center;
+}
+
+.chatbot-image {
+  position: relative;
+  width: 100%;
 }
 
 
@@ -477,8 +483,8 @@ body,
 }
 
 .four-image {
-  width: 70%;
-  height: 100%;
+  width: 90%;
+  height: 90vh;
   position: relative;
   border-radius: 75px;
   display: flex;
@@ -515,10 +521,10 @@ body,
 
 .four-content-text {
   height: 175px;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5%;
   position: relative;
   border-radius: 60px;
   background-color: rgba(255, 255, 255, 0.25);
@@ -543,28 +549,29 @@ body,
   flex-direction: row;
   width: 100%;
   height: 100%;
+  justify-content: center;
 }
 
 .four-content {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: space-evenly;
 }
 
 .four-content-two {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   justify-content: space-evenly;
 }
 
 .four-content-box {
-  width: 550px;
+  width: 600px;
   height: 175px;
   border-radius: 60px;
   background-color: rgba(255, 255, 255, 0.25);
