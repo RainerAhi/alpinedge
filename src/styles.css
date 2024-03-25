@@ -195,23 +195,52 @@ body,
 }
 
 .bottom-button-one {
-  background-color: #fefeff;
-  width: 350px;
+  display:inline-block;
   height: 75px;
+  width: 350px;
+  line-height: 75px;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+  background-color:#fefeff;
+  color:white;
   border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transition:0.3s;
+  z-index: 10;
+}
+
+.label-down {
+  display: block;
+  margin: 0px 30px;
+  height: 100%;
+  position: relative;
+  top: -100%;
+  transition: 0.3s;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.bottom-button-one:hover .label-down {
+  top:0%;
+}
+
+.bottom-button-two:hover .label-down {
+  top:0%;
 }
 
 .bottom-button-two {
-  background-color: #80BFFF;
-  width: 200px;
+  display: inline-block;
   height: 75px;
+  width: 225px;
+  line-height: 75px;
+  overflow:hidden;
+  position:relative;
+  text-align:center;
+  background-color:#80BFFF;
   border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transition:0.3s;
+  z-index: 10;
 }
 
 .bottom-button-one-text {

@@ -63,10 +63,12 @@ export const SectionOne = () => {
         </div>
           <div className="content-one-bottom" >
             <div className="bottom-button-one" >
-              <h1 className="bottom-button-one-text lightblue" >Start Your Alpine Journey</h1>
+              <h1 className="label-down lightblue" >Start Your Alpine Journey</h1>
+              <h1 className="label-down lightblue" >Start Your Alpine Journey</h1>
             </div>
             <div className="bottom-button-two" >
-              <h1 className="bottom-button-one-text white" >Buy Program</h1>
+              <h1 className="label-down white" >Buy Program</h1>
+              <h1 className="label-down white" >Buy Program</h1>
             </div>
           </div>
       </div>
