@@ -8,6 +8,9 @@ import { SectionFour } from "./Sections/SectionFour";
 import { SectionFive } from "./Sections/SectionFive";
 import { SectionSix } from "./Sections/SectionSix";
 import Animations from "./Animations";
+import { SectionSeven } from "./Sections/SectionSeven";
+import { SectionEight } from "./Sections/SectionEight";
+import { SectionNine } from "./Sections/SectionNine";
 
 const LoadingScreen = () => {
   const { progress, active } = useProgress();
@@ -69,6 +72,9 @@ function App() {
             <SectionFour />
             <SectionFive />
             <SectionSix />
+            <SectionSeven />
+            <SectionEight />
+            <SectionNine />
             
       </>
     )
